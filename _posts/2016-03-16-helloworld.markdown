@@ -7,4 +7,4 @@ categories: Experiment
 ---
 
 
-[Here is the link to the template post]{% post_url 2016-03-16-welcome-to-jekyll %}
+[Here is the link to the template post]: {% post_url 2016-03-16-welcome-to-jekyll %}
