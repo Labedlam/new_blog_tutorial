@@ -16,27 +16,27 @@ notes: active
 </article>
 
 
-<div class="notes">
-  <div class="note single">
-    <h1 class="title">{{ page.title }}</h1>
+<!--<div class="notes">-->
+  <!--<div class="note single">-->
+    <!--<h1 class="title">{{ page.title }}</h1>-->
 
-    <h2 class="date"><info datetime="{{ page.date }}">
-      {{ page.date | date_to_string }} {% if page.author %} by {{ page.author }} {% endif %}
-    </info></h2>
-    <!-- Post content -->
-    <div class="notebody">
-      {{ content }}
-    </div>
-    <!-- Post info -->
-    <div class="noteinfo">
-      <!-- include some categories and tags maybe? -->
-    </div>
+    <!--<h2 class="date"><info datetime="{{ page.date }}">-->
+      <!--{{ page.date | date_to_string }} {% if page.author %} by {{ page.author }} {% endif %}-->
+    <!--</info></h2>-->
+    <!--&lt;!&ndash; Post content &ndash;&gt;-->
+    <!--<div class="notebody">-->
+      <!--{{ content }}-->
+    <!--</div>-->
+    <!--&lt;!&ndash; Post info &ndash;&gt;-->
+    <!--<div class="noteinfo">-->
+      <!--&lt;!&ndash; include some categories and tags maybe? &ndash;&gt;-->
+    <!--</div>-->
 
-    <hr>
+    <!--<hr>-->
 
     <!-- Post comments -->
     <div class="notecomments">
       {% include disqus.html %}
     </div>
-  </div><!-- / .note .single -->
-</div><!-- /.notes -->
+  <!--</div>&lt;!&ndash; / .note .single &ndash;&gt;-->
+<!--</div>&lt;!&ndash; /.notes &ndash;&gt;-->
